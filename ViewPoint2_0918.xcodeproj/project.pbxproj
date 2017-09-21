@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F531C9B81F734A2A00F7CC4E /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F531C9B51F734A2A00F7CC4E /* 1.jpeg */; };
+		F531C9B91F734A2A00F7CC4E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F531C9B61F734A2A00F7CC4E /* 2.jpg */; };
+		F531C9BA1F734A2A00F7CC4E /* bright-7.png in Resources */ = {isa = PBXBuildFile; fileRef = F531C9B71F734A2A00F7CC4E /* bright-7.png */; };
 		F5F687F51F6F9B4F003C66F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F687F41F6F9B4F003C66F9 /* AppDelegate.swift */; };
 		F5F687F71F6F9B4F003C66F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F687F61F6F9B4F003C66F9 /* ViewController.swift */; };
 		F5F687FA1F6F9B4F003C66F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F687F81F6F9B4F003C66F9 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		F5F687FF1F6F9B4F003C66F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F687FD1F6F9B4F003C66F9 /* LaunchScreen.storyboard */; };
 		F5F6880A1F6F9B4F003C66F9 /* ViewPoint2_0918Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F688091F6F9B4F003C66F9 /* ViewPoint2_0918Tests.swift */; };
 		F5F688151F6F9B4F003C66F9 /* ViewPoint2_0918UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F688141F6F9B4F003C66F9 /* ViewPoint2_0918UITests.swift */; };
+		F5F688231F6F9B91003C66F9 /* ViewPoint.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5F688221F6F9B91003C66F9 /* ViewPoint.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F531C9B51F734A2A00F7CC4E /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = "/Users/d7703_22/Desktop/201312427/08_31 map/08_31 map/../../../../Downloads/1.jpeg"; sourceTree = "<absolute>"; };
+		F531C9B61F734A2A00F7CC4E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = "../../08_31 map/08_31 map/2.jpg"; sourceTree = "<group>"; };
+		F531C9B71F734A2A00F7CC4E /* bright-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bright-7.png"; path = "/Users/d7703_22/Desktop/201312427/08_31 map/08_31 map/../../../../Downloads/Map01-master/DITMap/bright-7.png"; sourceTree = "<absolute>"; };
 		F5F687F11F6F9B4F003C66F9 /* ViewPoint2_0918.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewPoint2_0918.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F687F41F6F9B4F003C66F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5F687F61F6F9B4F003C66F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		F5F688101F6F9B4F003C66F9 /* ViewPoint2_0918UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewPoint2_0918UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F688141F6F9B4F003C66F9 /* ViewPoint2_0918UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPoint2_0918UITests.swift; sourceTree = "<group>"; };
 		F5F688161F6F9B4F003C66F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F688221F6F9B91003C66F9 /* ViewPoint.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ViewPoint.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +105,15 @@
 		F5F687F31F6F9B4F003C66F9 /* ViewPoint2_0918 */ = {
 			isa = PBXGroup;
 			children = (
+				F531C9B51F734A2A00F7CC4E /* 1.jpeg */,
+				F531C9B61F734A2A00F7CC4E /* 2.jpg */,
+				F531C9B71F734A2A00F7CC4E /* bright-7.png */,
 				F5F687F41F6F9B4F003C66F9 /* AppDelegate.swift */,
 				F5F687F61F6F9B4F003C66F9 /* ViewController.swift */,
 				F5F687F81F6F9B4F003C66F9 /* Main.storyboard */,
 				F5F687FB1F6F9B4F003C66F9 /* Assets.xcassets */,
 				F5F687FD1F6F9B4F003C66F9 /* LaunchScreen.storyboard */,
+				F5F688221F6F9B91003C66F9 /* ViewPoint.plist */,
 				F5F688001F6F9B4F003C66F9 /* Info.plist */,
 			);
 			path = ViewPoint2_0918;
@@ -232,8 +244,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F531C9BA1F734A2A00F7CC4E /* bright-7.png in Resources */,
+				F531C9B91F734A2A00F7CC4E /* 2.jpg in Resources */,
+				F531C9B81F734A2A00F7CC4E /* 1.jpeg in Resources */,
 				F5F687FF1F6F9B4F003C66F9 /* LaunchScreen.storyboard in Resources */,
 				F5F687FC1F6F9B4F003C66F9 /* Assets.xcassets in Resources */,
+				F5F688231F6F9B91003C66F9 /* ViewPoint.plist in Resources */,
 				F5F687FA1F6F9B4F003C66F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +521,7 @@
 				F5F6881B1F6F9B4F003C66F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5F6881C1F6F9B4F003C66F9 /* Build configuration list for PBXNativeTarget "ViewPoint2_0918Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				F5F6881E1F6F9B4F003C66F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5F6881F1F6F9B4F003C66F9 /* Build configuration list for PBXNativeTarget "ViewPoint2_0918UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				F5F688211F6F9B4F003C66F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
